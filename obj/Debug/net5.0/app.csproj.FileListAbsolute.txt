@@ -1,0 +1,15 @@
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/app.deps.json
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/app.runtimeconfig.json
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/app.runtimeconfig.dev.json
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/app.dll
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/ref/app.dll
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/bin/Debug/net5.0/app.pdb
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.csproj.AssemblyReference.cache
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.AssemblyInfoInputs.cache
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.AssemblyInfo.cs
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.csproj.CoreCompileInputs.cache
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.dll
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/ref/app.dll
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.pdb
+/Users/james.sandford/Documents/ECS/guilds/dev/challenge/3/app/obj/Debug/net5.0/app.genruntimeconfig.cache
