@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace app{
+namespace two{
     class calc{
         int devide(int x, int y){
             return y/x;
@@ -27,7 +27,10 @@ namespace app{
                         buffer.Push(devide(buffer.Pop(),buffer.Pop()));
                         break;
                     default:
-                    buffer.Push(Int32.Parse(arr[i]));
+                        int result;
+                        if(Int32.TryParse(arr[i], out result)){
+                            buffer.Push(result);
+                        }
                         continue;
                 }
             }
