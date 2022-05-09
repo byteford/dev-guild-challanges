@@ -1,10 +1,12 @@
 using System;
+using UnityEngine;
 namespace Three{
     class lexi{
 
         public static int[] load(int a, int b){
-            int[] arr = new int[b-a+1];
-            for(int i = 0; i <= b-a; i++){
+            int[] arr = new int[Math.Abs(b - a)+1];
+            Debug.Log(arr.Length);
+            for(int i = 0; i <= Math.Abs(b - a); i++){
                 arr[i] = i+a;
             }
             return arr;

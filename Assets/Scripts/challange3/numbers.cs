@@ -1,5 +1,6 @@
+using System;
 using System.Linq;
-
+using UnityEngine;
 namespace Three{
     class Numbers{
         public string[] words;
@@ -8,7 +9,7 @@ namespace Three{
             return words[i];
         }
         public string this[int i]{
-            get{return words[i];}
+            get{return i >= 0 ? words[i] : "minus " + words[Math.Abs(i)];}
         }
         string[] buildwords(string pre, string[]suff){
             string[] arr = new string[suff.Length +1];
