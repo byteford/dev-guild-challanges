@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class loadScene : MonoBehaviour
 {
+    public void loadChallange1(){
+        SceneManager.LoadScene("challange1");
+    }
     public void loadChallange2(){
         SceneManager.LoadScene("challange2");
     }
