@@ -5,11 +5,12 @@ namespace Three{
     class Numbers{
         public string[] words;
         public static string[] options = {"en", "jp"};
+        string negitive = "";
         public string At(int i){
             return words[i];
         }
         public string this[int i]{
-            get{return i >= 0 ? words[i] : "minus " + words[Math.Abs(i)];}
+            get{return i >= 0 ? words[i] : negitive + words[Math.Abs(i)];}
         }
         string[] buildwords(string pre, string[]suff){
             string[] arr = new string[suff.Length +1];
@@ -23,6 +24,7 @@ namespace Three{
             
             switch (lang){
                 case "en":
+                negitive = "minus ";
                     string[] zero = {"zero"};
                     string[] unit = {
                         "one", 
